@@ -10,7 +10,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
 
-explode(". ",$testo);
+ $str=explode(".",$testo);
 
 ?>
 <!DOCTYPE html>
@@ -23,7 +23,10 @@ explode(". ",$testo);
 </head>
 <body>
 
-<p><?php $stringa=var_dump($testo)?></p>
+<p><?php echo ($str[0])?></p>
+<p><?php echo ($str[1])?></p>
+<p><?php echo ($str[2])?></p>
+<p><?php echo ($str[3])?></p>
     
 </body>
 </html>
