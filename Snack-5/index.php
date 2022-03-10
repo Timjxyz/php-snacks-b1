@@ -11,7 +11,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
 
 explode(". ",$testo);
-$stringa=var_dump($testo)
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,7 +23,7 @@ $stringa=var_dump($testo)
 </head>
 <body>
 
-<p><?php echo $stringa?></p>
+<p><?php $stringa=var_dump($testo)?></p>
     
 </body>
 </html>
